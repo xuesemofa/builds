@@ -1,0 +1,9 @@
+.xdt{
+    -fx-background-image: url("img/ditu.jpg") no-repeat left center;
+    -fx-background-size:cover;
+}
+
+.rw{
+    -fx-background-image: url("img/rw.jpg") no-repeat left center;
+    -fx-background-size:cover;
+}

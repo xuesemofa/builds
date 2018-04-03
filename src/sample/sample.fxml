@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <VBox layoutX="430.0" prefHeight="400.0" prefWidth="169.0">
+            <children>
+                <Pane prefHeight="101.0" prefWidth="169.0" style="-fx-border-color: red; -fx-background-color: #ccc;" styleClass="xdt" />
+                <Button fx:id="cj_button" mnemonicParsing="false" onAction="#cj" prefHeight="24.0" prefWidth="55.0" style="-fx-background-color: white;" text="基础" />
+                <Button fx:id="zj_button" contentDisplay="TOP" mnemonicParsing="false" onAction="#zj" prefHeight="23.0" prefWidth="55.0" style="-fx-background-color: white;" text="生产">
+                    <VBox.margin>
+                        <Insets left="55.0" top="-23.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="gj_button" mnemonicParsing="false" onAction="#gj" prefHeight="23.0" prefWidth="59.0" style="-fx-background-color: white;" text="高级">
+                    <VBox.margin>
+                        <Insets left="110.0" top="-23.0" />
+                    </VBox.margin>
+                </Button>
+                <VBox fx:id="jzy" prefHeight="275.0" prefWidth="169.0" style="-fx-background-color: #ccc;">
+                    
+                </VBox>
+            </children>
+        </VBox>
+        <Pane fx:id="huabu" onMouseMoved="#shubiaoweizhi" prefHeight="400.0" prefWidth="424.0" />
+    </children>
+</Pane>
